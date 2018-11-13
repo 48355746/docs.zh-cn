@@ -37,7 +37,7 @@ ms.locfileid: "43516648"
 
 使用已确认可以编译和运行的现有项目，或在硬盘上的文件夹中新建一个控制台应用项目。 本教程假定项目文件夹名为 GarciaSoftware.ConsoleTemplate.CSharp，并存储在用户配置文件中的 Documents\Templates。 本教程的项目模板名称采用格式“\<公司名称>.\<模板类型>.\<编程语言>”，但也可以根据自己的意愿随意命名项目和模板。
 
-1. 向 .template.config 项目根添加文件夹。
+1. 向项目根添加文件夹.template.config。
 1. 在 .template.config 文件夹中，创建 template.json 文件来配置模板。 有关 template.json 文件的详细信息和成员定义，请参阅 [dotnet new 自定义模板](../tools/custom-templates.md#templatejson)主题和 [JSON 架构存储中的 template.json 架构](http://json.schemastore.org/template)。
 
 ```json
